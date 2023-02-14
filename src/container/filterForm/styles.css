@@ -1,0 +1,40 @@
+.container {
+    margin: auto;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.additional {
+    margin-left: 20px;
+    color: #fff;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.additional-text{
+    font-size: 20px;
+    font-weight: 600;
+    color:#000;
+    background: #fafafa;
+}
+
+.additional:active {
+    content: '\e60f'
+}
+
+.drop-down .MuiFormControl-root {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.MuiPopover-root .MuiPaper-root .MuiList-root .MuiButtonBase-root.Mui-selected {
+    background: #fff;
+    color: black
+}
+
+.sliderContainer .MuiSlider-root {
+    height: 10px;
+}

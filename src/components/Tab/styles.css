@@ -1,0 +1,79 @@
+.tabContainer-main {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    font-size: 17px;
+    background-color: #000;
+}
+
+.tabContainer {
+    display: flex;
+    color: white;
+    min-height: 53px;
+    width: 100%;
+}
+
+
+.tabMenu {
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0px 10px;
+    height: inherit;
+}
+
+.tabMenu:hover {
+    background-color: #b7dde8;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.tagactive {
+    background-color: #b7dde8 !important;
+    color: #ffffff;
+}
+
+.tabMenu svg {
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.tab-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    min-height: 50px;
+    width: 100%;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.tab-end .save {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.tab-end .save:hover {
+    color: #b7dde8;
+    cursor: pointer;
+}
+
+.tab-end .reset:hover {
+    color: #b7dde8;
+    cursor: pointer;
+}
+
+.tab-end .save svg {
+    transform: rotate(90deg);
+}
+
+.tab-end .reset {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+}

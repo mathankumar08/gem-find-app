@@ -1,0 +1,40 @@
+.slider .MuiSlider-markActive {
+    height: inherit;
+    color: antiquewhite;
+}
+
+.slider .MuiSlider-markLabel {
+    color: azure !important;
+}
+
+.MuiSlider-mark {
+    opacity: 0;
+}
+
+.MuiSlider-track {
+    border: 'none',
+}
+
+.filterlabel {
+    margin: 10px 80px 10px 20px;
+    min-width: 100px;
+    display: flex;
+}
+
+.slidercontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.textinput {
+    display: flex;
+}
+
+.textinput>input {
+    border-radius: 25px;
+    border: 1px solid grey;
+    width: 50px;
+    margin-right: 20%;
+    text-align: center;
+    outline: none;
+}

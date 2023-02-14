@@ -1,0 +1,317 @@
+.diamondList-table-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.diamondList-header {
+    justify-content: start;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.diamondList-table-main .diamondList-header {
+    font-size: 22px;
+}
+
+.diamondList-table-main .diamondList-header .count-text .count {
+    font-weight: 700;
+}
+
+.diamondList-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.diamondList-dropdown .MuiInputBase-root fieldset {
+    border-radius: 1px;
+    border-width: 1px !important;
+    border-color: #9f9f9f !important;
+    inset: 0;
+}
+
+.diamondList-dropdown .MuiInputBase-root fieldset legend {
+    display: none;
+}
+
+.diamondList-dropdown .MuiInputBase-root {
+    width: fit-content;
+    position: relative;
+}
+
+.diamondList-dropdown .MuiInputBase-root::after {
+    content: '';
+    position: absolute;
+    width: 0.5px;
+    background-color: #9f9f9f;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.diamondList-dropdown .MuiInputBase-root .MuiSelect-select {
+    padding: 8px 40px 8px 8px !important;
+    width: fit-content;
+}
+
+.search-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.search-menu>svg {
+    color: #000000;
+    background-color: #e8e8e8;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.search-menu .view {
+    color: #fff;
+    background-color: #000;
+}
+
+.diamondList-footer {
+    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.diamondList-footer>p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.compare-btn {
+    width: fit-content;
+    color: #ffffff;
+    background: #000000;
+    padding: 8px 13px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.MuiPagination-root .MuiPagination-ul li button {
+    border-radius: 2px;
+    border-color: #e8e8e8;
+}
+
+.MuiPagination-root .MuiPagination-ul li button.MuiPaginationItem-page:hover {
+    background: #b7dde8;
+    color: #FFF;
+}
+
+.MuiPagination-root .MuiPagination-ul li button.MuiPaginationItem-firstLast:hover {
+    background: #b7dde8;
+    color: #FFF;
+}
+
+.MuiPagination-root .MuiPagination-ul li button.Mui-selected {
+    background-color: #000000;
+    color: #FFF;
+}
+
+.searchField {
+    display: flex;
+    align-items: center;
+}
+
+.searchField svg {
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.searchField .MuiFormControl-root {
+    padding: 0;
+}
+
+.searchField input {
+    height: auto;
+    padding: 8px 12px;
+    background-color: #fafafa;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+
+.searchField fieldset {
+    border: none;
+}
+
+.card-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.table-styles {
+    border-collapse: collapse;
+    font-size: 12px;
+    margin: 15px 0;
+    background-color: #fafafa;
+}
+
+.table-styles thead {
+    background-color: #000;
+    color: #FFF;
+}
+
+.table-styles thead th {
+    padding: 8px;
+}
+
+.table-styles thead img {
+    filter: invert(1);
+    width: 20px;
+}
+
+.table-styles tbody td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-bottom: none;
+}
+
+.table-styles tbody tr:hover td {
+    background-color: #b7dde8;
+    color: #FFF;
+}
+
+.table-styles tbody tr:hover :is(.cam, .view) {
+    filter: invert(1);
+}
+
+.table-styles tbody tr td .cam {
+    width: 13px;
+}
+
+.table-styles tbody tr td .view {
+    width: 20px;
+}
+
+.table-styles tbody tr td .align-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table-styles tbody tr td .align-space img {
+    width: 20px;
+    height: auto;
+}
+
+.table-styles tbody tr td input[type=checkbox] {
+    width: 15px;
+    height: 18px;
+}
+
+.table-styles tbody tr td:has(input[type=checkbox]) {
+    border-left: 1px solid #e8e8e1;
+    border-bottom: 1px solid #e8e8e1;
+}
+
+.table-styles tbody tr:first-child td {
+    border-top: none !important;
+}
+
+.text-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-arrow>span {
+    margin-left: 12px;
+}
+
+.checkbox-ui11 {
+color: #b7dde8;
+}
+
+.table-styles tbody tr td.checkbox-ui1 .MuiFormControlLabel-root {
+    margin: 0;
+}
+
+.table-styles tbody tr td.checkbox-ui1 .MuiFormControlLabel-root .MuiButtonBase-root {
+    padding: 0;
+}
+
+.table-styles tbody tr td.checkbox-ui1 .MuiFormControlLabel-root .MuiButtonBase-root svg path {
+    fill: #b7dde8;
+    position: relative;
+}
+
+.table-styles tbody tr td.checkbox-ui1 .MuiFormControlLabel-root .MuiButtonBase-root.Mui-checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    z-index: 1;
+    background-color: #b7dde8;
+}
+
+.table-styles tbody tr:hover td.checkbox-ui1 .MuiFormControlLabel-root .MuiButtonBase-root svg path {
+    fill: #FFF;
+}
+
+/* dropdown MUI */
+.MuiPopover-root .MuiPaper-root {
+    border-radius: 1px;
+}
+
+.MuiPopover-root .MuiPaper-root .MuiList-root {
+    padding: 0;
+}
+
+.MuiPopover-root .MuiPaper-root .MuiList-root .MuiButtonBase-root {
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 6px;
+}
+
+.MuiPopover-root .MuiPaper-root .MuiList-root .MuiButtonBase-root:last-child {
+    border-bottom: none;
+}
+
+.MuiPopover-root .MuiPaper-root .MuiList-root .MuiButtonBase-root.Mui-selected {
+    background-color: #828282;
+    color: #FFF;
+}
+
+.MuiPopover-root .MuiPaper-root .MuiList-root .MuiButtonBase-root:hover {
+    background-color: #b7dde8;
+    color: #FFF;
+}
+/* .MuiFormControlLabel-root .MuiSvgIcon-root:hover{
+    height:2em;
+} */
+
+.checkbox-ui1:hover{
+    background-color: #b7dde8;
+}
+
+.flex-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

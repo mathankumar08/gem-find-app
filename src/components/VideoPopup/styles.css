@@ -1,0 +1,46 @@
+.video-popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  max-width: 50%;
+  height: 500px;
+  width: 100%;
+  top: 0;
+  left: 25%;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  /* margin: 0 auto; */
+  height: 100%;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+}
+
+.close-icon {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(28% - 25px);
+  top: calc(100vh - 90vh - 44px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.video-icon>iframe {
+  margin: 45px 10px 10px 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

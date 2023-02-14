@@ -1,0 +1,9 @@
+.sliderContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputs>.edit:last-child {
+    float: right;
+}
